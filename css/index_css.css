@@ -88,8 +88,8 @@ h2 {
 /*layout*/
  
 .wrapper {
-    border: 1px solid black;
     background-color: white;
+    z-index: -1
 }
  
 article {
@@ -263,6 +263,34 @@ a.to_nav:focus {
   padding-top: 30px;
   color: black;
   border: 2px solid black;
+}
+
+.column4 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 40px;
+  padding-top: 20px;
+  color: black;
+}
+
+.column5 {
+  float: left;
+  margin-top: 60px;
+  margin-left: 70px;
+  line-height: 200%;
+}
+
+.title{
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(178, 234, 252);
 }
 
 .name{

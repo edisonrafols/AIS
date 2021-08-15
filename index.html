@@ -1,66 +1,119 @@
-<!DOCTYPE HTML>
-<head>
-	<meta http-equiv="content-type" content="text/html" />
-	<meta name="author" content="lolkittens" />
-
-	<title>Applicant Information System</title>
+<!DOCTYPE html>
+<html lang="en">
+<title>Applicant Information System</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <!--=== Mobile specific meta =====================================================-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--=== Mobile specific meta =====================================================-->
-    
-    <!--=== CSS =================================-->
     <link rel="stylesheet" href="css/index_css.css">
-    <!--=== CSS =================================-->
     
     <style>
-        
+        body {
+            font-family: "Lato", sans-serif;
+        }
     </style>
-</head>
+<body>
 
-<body id="home">
-
-    <header>
-        <h1 class="logo"><a href="">Edison Rafols</a></h1>
-        <a class="to_nav" href="#primary_nav">Menu</a>
-    </header>
-    
-    <div id="home"class="wrapper" style="max-width:800px;">
-        <!--<img src="images/rafols.png" alt="" style="width:40%; height: 40%; padding-left: 10px; padding-top: 10px;">-->
-        <div class="row">
-            <div class="column1">
-                <img src="images/rafols.png" alt="" style="margin-top: -10px;">
-                <p class="name">Edison Rafols</p>
-            </div>
-            
-            <div class="column2">
-                <p>Block 3 Lot 3 Filinvest Homesite 1,</p>
-                <p>Brgy. Bagong Silang, City of San Pedro, Laguna</p>
-                <p>Contact no.: 09216312918 / 09454988789</p>
-                <p>E-mail address: edisonrafols3588@gmail.com</p>
-            </div>
-            
-            <div class="column3">
-                <p>OBJECTIVE: To find a company where all my skills and efforts are</p>
-                <p>to be explore and familiarize, and to seek career development</p>
-                <p>opportunities where my abilities and knowledge could be best</p>
-                <p>subjected and utilized for the promotion of the organization and</p>
-                <p>myself.</p>
-            </div>
+    <!--=== Navbar =======================================================================================================-->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" 
+                    href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="#tSkills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Technical Skills</a>
+            <a href="#pSkills" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Personal Skills</a>
+            <a href="#jExperience" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Job Experience</a>
+            <a href="#Education" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Education</a>
+            <a href="#pInformation" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Personal Information</a>
+            <a href="#references" class="w3-bar-item w3-button w3-padding-large w3-hide-small">References</a>
         </div>
     </div>
-    
-    <nav id="primary_nav">
-        <ul>
-            <li class="top"><a href="#home">Home</a></li>
-            <li><a href="">Technical Skills</a></li>
-            <li><a href="">Personal Skills</a></li>
-            <li><a href="">Job Experience</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Personal Information</a></li>
-            <li><a href="">References</a></li>
-        </ul>
-    </nav>
+    <!--=== Navbar ========================================================================================================-->
+
+    <!--=== Navbar ========================================================================================================-->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#tSkills" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Technical Skills</a>
+        <a href="#pSkills" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Personal Skills</a>
+        <a href="#jExperience" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Job Experience</a>
+        <a href="#Education" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Education</a>
+        <a href="#pInformation" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Personal Information</a>
+        <a href="#references" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">References</a>
+    </div>
+    <!--=== Navbar ========================================================================================================-->
+
+    <!--=== Page content ==================================================================================================-->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!--=== Top portion of CV =========================================================================================-->
+        <div id="home" class="wrapper" style="max-width:800px;">
+            <div class="row">
+                <div class="column1">
+                    <img src="images/rafols.png" alt="" style="margin-top: -10px;">
+                    <p class="name">Edison Rafols</p>
+                </div>
+            
+                <div class="column2">
+                    <p>Block 3 Lot 3 Filinvest Homesite 1,</p>
+                    <p>Brgy. Bagong Silang, City of San Pedro, Laguna</p>
+                    <p>Contact no.: 09216312918 / 09454988789</p>
+                    <p>E-mail address: edisonrafols3588@gmail.com</p>
+                </div>
+            
+                <div class="column3">
+                    <p>OBJECTIVE: To find a company where all my skills and efforts are</p>
+                    <p>to be explore and familiarize, and to seek career development</p>
+                    <p>opportunities where my abilities and knowledge could be best</p>
+                    <p>subjected and utilized for the promotion of the organization and</p>
+                    <p>myself.</p>
+                </div>
+            </div>
+        </div>
+        <!--=== Top portion of CV =========================================================================================-->
+        
+        <!--=== Technical Skills of CV ====================================================================================-->
+        <div id="tSkills" class="wrapper" style="max-width:800px;">
+            <div class="row">           
+                <div class="column4">
+                    <p class="title">Technical Skills</p>
+                </div>
+            
+                <div class="column5">
+                    <ul>
+                        <li>Proficient in different programming language such as:</li>
+                            <dd>- JAVA Programming (8 out of 10)</dd>
+                            <dd>- C# Programming (6 out of 10)</dd>
+                            <dd>- C++ Programming (6 out of 10)</dd>
+                            <dd>- PHP (9 out of 10)</dd>
+                            <dd>- HTML (9 out of 10)</dd>
+                            <dd>- CSS (8 out of 10)</dd>
+                            <dd>- Python (1 out of 10)</dd>
+                            <dd>- JavaScript (1 out of 10)</dd>
+                            <dd>- SQL (9 out of 10)</dd>
+                        <li>Basic Android Mobile Development </li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--=== Technical Skills of CV ====================================================================================-->
+    </div>
+    <!--=== Page content ==================================================================================================-->
+
+<script>
+    //Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            }else{ 
+                x.className = x.className.replace(" w3-show", "");
+            }
+    }
+</script>
 
 </body>
 </html>
