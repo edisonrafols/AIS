@@ -293,6 +293,17 @@ a.to_nav:focus {
     background-color: rgb(178, 234, 252);
 }
 
+.title_pInfo{
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    height: 55px;
+    margin-left: 10px;
+    background-color: rgb(178, 234, 252);
+}
+
 .name{
     color: black;
     border: 2px solid black;
@@ -309,5 +320,17 @@ a.to_nav:focus {
   content: "";
   display: table;
   clear: both;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 20px;
+}
+
+td, th {
+  text-align: left;
+  padding: 0px;
 }
 /* card */
